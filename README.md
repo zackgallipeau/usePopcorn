@@ -1,3 +1,7 @@
+Built in React.
+
+With usePopcorn, you can search for movies you've watched, view how audiences rated them, rate them yourself, and add them to your watch list. View it here: https://zackgallipeau.github.io/usePopcorn/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
