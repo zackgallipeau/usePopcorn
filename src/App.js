@@ -338,7 +338,7 @@ function MovieDetails({
       async function getMovieDetails() {
         setIsLoading(true);
         const res = await fetch(
-          `http://www.omdbapi.com/?apikey=682e606c&i=${selectedId}`
+          `https://www.omdbapi.com/?apikey=682e606c&i=${selectedId}`
         );
         // console.log(res);
         const data = await res.json();
@@ -371,7 +371,7 @@ function MovieDetails({
           onHandleCloseMovie();
         }
       }
-g      document.addEventListener("keydown", callback);
+      document.addEventListener("keydown", callback);
 
       return function () {
         document.removeEventListener("keydown", callback);
